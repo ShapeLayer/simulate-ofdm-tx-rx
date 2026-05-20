@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="FO_N4keLlKoNTFjKIzf6">
+    <mxGraphModel dx="541" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-10" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="h2NXpeJVbrm7lJSmA_pb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="QPSK Mapping" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-11" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="IFFT" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-12" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Insert CP" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-13" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Multipath&lt;div&gt;Channel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-14" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="h2NXpeJVbrm7lJSmA_pb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="AWGN" vertex="1">
+          <mxGeometry height="40" width="120" x="50" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-15" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Remove CP" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-17" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Channel Equalization" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-16" edge="1" parent="1" source="h2NXpeJVbrm7lJSmA_pb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="h2NXpeJVbrm7lJSmA_pb-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="FFT" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="h2NXpeJVbrm7lJSmA_pb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ML Hard Decision" vertex="1">
+          <mxGeometry height="40" width="120" x="210" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
